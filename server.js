@@ -16,4 +16,4 @@ app.get('/js', (req, res) => {
     res.sendFile(__dirname + '/public/main.js');
 });
 
-app.listen(5510, () => console.log(`app is up on 5510`));
+app.listen(5150, () => console.log(`app is up on 5150`));
