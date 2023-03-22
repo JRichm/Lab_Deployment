@@ -9,11 +9,11 @@ app.get('/', (req, res) => {
 });
 
 app.get('/css', (req, res) => {
-    res.sendFile(__dirname + '/public/styles.css');
+    res.sendFile(__dirname + '/public/style.css');
 });
 
 app.get('/js', (req, res) => {
-    res.sendFile(__dirname + '/public/main.js');
+    res.sendFile(__dirname + '/public/index.js');
 });
 
 app.listen(5150, () => console.log(`app is up on 5150`));
